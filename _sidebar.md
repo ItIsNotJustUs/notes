@@ -1,5 +1,3 @@
 - [Not Just Us](/README.md)
 - [机器学习](/machine-learning/)
-  - [线性回归](/machine-learning/linear-regression.md)
 - [网络科学](/NetworkScienceAlgorithms/)
-  - [KNN详解](/NetworkScienceAlgorithms/KNN算法详解.md)
