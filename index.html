@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
     <!-- 侧边栏箭头风格 -->
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
+    <!-- 右侧文章导航 -->
+    <link rel="stylesheet" href="https://unpkg.com/docsify-toc@1.0.0/dist/toc.css">
+
 </head>
 
 <body>
@@ -32,6 +35,8 @@
             loadNavbar: true,
             // 封面支持，默认加载的是项目根目录下的_coverpage.md文件
             coverpage: true,
+            // 取消封面滑动
+            onlyCover: true, 
             // 最大支持渲染的标题层级
             maxLevel: 5,
             // 自定义侧边栏后默认不会再生成目录，设置生成目录的最大层级（建议配置为2-4）
@@ -73,6 +78,18 @@
     <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
     <!-- 目录折叠插件 -->
     <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+
+    <!-- latex 公式 -->
+    <!-- CDN files for docsify-katex -->
+    <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
+    <!-- or <script src="//cdn.jsdelivr.net/gh/upupming/docsify-katex@latest/dist/docsify-katex.js"></script> -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"/>
+    
+    <!-- 右侧文章导航 -->
+    <script src="https://unpkg.com/docsify-toc@1.0.0/dist/toc.js"></script>
+
+
+
 </body>
 
 </html>
