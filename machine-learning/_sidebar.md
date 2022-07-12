@@ -1,2 +1,4 @@
-- [什么是机器学习？](/machine-learning/ml-summay.md)
-- [线性回归](/machine-learning/linear-regression.md)
+- [回到上级目录](/README.md)
+- [机器学习简介](/machine-learning/ml_summay.md)
+- [广义线性回归](/machine-learning/linear_models/)
+  - [线性回归](/machine-learning/linear_models/linear_regression.md)
