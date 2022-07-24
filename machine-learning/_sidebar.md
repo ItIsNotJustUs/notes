@@ -1,4 +1,5 @@
 - [回到上级目录](/README.md)
 - [机器学习简介](/machine-learning/ml_summay.md)
-- [广义线性回归](/machine-learning/linear_models/)
+- [广义线性模型](/machine-learning/linear_models/)
   - [线性回归](/machine-learning/linear_models/linear_regression.md)
+- [模型评估方法](/machine-learning/model_evaluation/model_evaluation.md)
