@@ -3,3 +3,8 @@
   * [线性回归](/machine-learning/linear-regression.md)
 * [网络科学](/NetworkScienceAlgorithms/)
   * [KNN详解](/NetworkScienceAlgorithms/KNN算法详解.md)
+  * [DCN](/NetworkScienceAlgorithms/DCN.md)
+  * [Word2vec](/NetworkScienceAlgorithms/Word2vec.md)
+  * [K-Means、K-Means++](/NetworkScienceAlgorithms/K-Means、K-Means++.md)
+  * [Linear Regression 线性回归](/NetworkScienceAlgorithms/Linear Regression 线性回归.md)
+  * [Logistic Regression 逻辑回归](/NetworkScienceAlgorithms/Logistic Regression 逻辑回归.md)
