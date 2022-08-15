@@ -1,5 +1,7 @@
 - [回到上级目录](/README.md)
 - [机器学习简介](/machine-learning/ml_summay.md)
-- [广义线性模型](/machine-learning/linear_models/)
+- [广义线性模型](/machine-learning/linear_models/README.md)
   - [线性回归](/machine-learning/linear_models/linear_regression.md)
+  - [logistics回归](/machine-learning/linear_models/logistics_regression.md)
+- [常见优化器](/machine-learning/optimizers/common_optimizers.md)
 - [模型评估方法](/machine-learning/model_evaluation/model_evaluation.md)

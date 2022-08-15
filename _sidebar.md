@@ -1,16 +1,4 @@
-<<<<<<< HEAD
 * [Not Just Us](/README.md)
 * [机器学习](/machine-learning/)
-  * [线性回归](/machine-learning/linear-regression.md)
 * [网络科学](/NetworkScienceAlgorithms/)
-  * [KNN详解](/NetworkScienceAlgorithms/KNN算法详解.md)
-  * [DCN](/NetworkScienceAlgorithms/DCN.md)
-  * [Word2vec](/NetworkScienceAlgorithms/Word2vec.md)
-  * [K-Means、K-Means++](/NetworkScienceAlgorithms/K-Means、K-Means++.md)
-  * [Linear Regression 线性回归](/NetworkScienceAlgorithms/Linear Regression 线性回归.md)
-  * [Logistic Regression 逻辑回归](/NetworkScienceAlgorithms/Logistic Regression 逻辑回归.md)
-=======
-- [Not Just Us](/README.md)
-- [机器学习](/machine-learning/)
-- [网络科学](/NetworkScienceAlgorithms/)
->>>>>>> cac8d4d04de1c3d7bf5ccdc5f72f480253bb5371
+  
