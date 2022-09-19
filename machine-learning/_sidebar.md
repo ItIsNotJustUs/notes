@@ -7,3 +7,6 @@
 - [常见损失函数](/machine-learning/loss_func/common_loss_func.md)
 - [常见激活函数](/machine-learning/activation_function/common_ac_func.md)
 - [常见优化器](/machine-learning/optimizers/common_optimizers.md)
+- [自然语言处理](/machine-learning/nlp/README.md)
+  - [Attention机制与self-attention](/machine-learning/nlp/self-attn.md) 
+  - [Transformer理解](/machine-learning/nlp/transformer.md)
