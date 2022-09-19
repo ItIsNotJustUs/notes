@@ -120,7 +120,7 @@ $\text{batch size} * \text{sequence length} * \text{embedding size} (d_{model})$
 
 $\text{batch size} * \text{sequence length} * d_k$
 
-然后每个$\text{sequence_length}$阶的向量就是一系列的权重分配。
+然后每个$\text{sequence length}$阶的向量就是一系列的权重分配。
 
 注意，图中$d_k = d_{model}$，实际上如果张量是$\text{sequence length} * \text{embedding size}$（$\text{sequence length}$在前），应该是$W_Q * X$（$W$在前才能得到正确的维度变换)（上图有些不严谨）。
 
