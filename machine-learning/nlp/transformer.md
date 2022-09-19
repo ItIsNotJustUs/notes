@@ -111,12 +111,12 @@ $$
 
 我们再来捋一下维度变化
 
-位置编码之后：$\text{batch_size} * \text{sequence_length} * d_{model}$
+位置编码之后：$\text{batch size} * \text{sequence length} * d_{model}$
 
 多头注意力机制：
 
-- 分多头，每个头的维度，$\text{batch_size} * \text{sequence_length} *\text{num_head} * d_k$
-- 多头拼接：$\text{batch_size} * \text{sequence_length} * d_{model}$
+- 分多头，每个头的维度，$\text{batch size} * \text{sequence length} *\text{num head} * d_k$
+- 多头拼接：$\text{batch size} * \text{sequence length} * d_{model}$
 
 
 
@@ -162,15 +162,7 @@ $$
 
 为了利用并行的方式，可以通过mask上三角的方式：
 
-<start>	<mask>		<mask>		<mask>		<mask>
-
-<start>	     I			<mask>		<mask>		<mask>
-
-<start>	     I			love			<mask>		<mask>
-
-<start>	     I			love			nlp			<mask>
-
-<start>	     I			love			nlp			<end>
+![](images/right_mask.jpg)
 
 这样就可以做到并行输入了。然后经过的Multi-Head Attention也叫做Masked Multi-Head Attention。
 
@@ -187,3 +179,9 @@ $$
 
 
 
+
+
+
+
+
+​

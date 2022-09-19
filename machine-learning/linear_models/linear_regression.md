@@ -54,11 +54,9 @@ $$
 
 $$
 \begin{aligned}
-
 &\ \arg\min_{w, b} loss(w, b)  \\
 &= \arg\min_{w, b} \frac1n \sum_{i=1}^{n}(y_i - \hat{y}_i)^2 \\
 &= \arg\min_{w, b} \frac1n \sum_{i=1}^{n}[y_i - (wx_i + b)]^2
-
 \end{aligned}
 $$
 
