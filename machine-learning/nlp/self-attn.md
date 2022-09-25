@@ -64,11 +64,9 @@ $\overline{h_1^{\prime}} \leftarrow contact(\overline{h_1^{\prime}}, c_2)$
 
 这里我们就可以把”你想要去图书馆找书“当作一个**Query(Q)**,
 
-图书馆提供了分类方案成为了**Key(K)**，
+图书馆提供了分类方案成为了**Key（K）**，
 
 书籍本身就成了**Value(V)**.
-
-
 
 Attention框架的做法是：
 

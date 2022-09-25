@@ -72,7 +72,7 @@ Why?其实我第一次在学这一部分的时候也很疑惑，包括看了很�
 
 那么如何理解Transformer使用这样的位置编码呢？
 
-这里偷懒引用一篇文章，[Transformer Architecture: The Positional Encoding]([Transformer Architecture: The Positional Encoding - Amirhossein Kazemnejad's Blog](https://kazemnejad.com/blog/transformer_architecture_positional_encoding/)) ， 其实我翻译的话，肯定还会出很多差错的，建议阅读原文。
+这里偷懒引用一篇文章，[Transformer Architecture: The Positional Encoding - Amirhossein Kazemnejad's Blog](https://kazemnejad.com/blog/transformer_architecture_positional_encoding/) ， 其实我翻译的话，肯定还会出很多差错的，建议阅读原文。
 
 
 
@@ -88,7 +88,7 @@ Why?其实我第一次在学这一部分的时候也很疑惑，包括看了很�
 
 从之前的内容知道，self-attn机制可以将
 
-$batch\_size * seqence\_length * d_{model}$ 映射成$\text{batch_size}  * \text{sequence_length}* d_k$。
+$batch\_size * seqence\_length * d_{model}$ 映射成$\text{batch size}  * \text{sequence length}* d_k$。
 
 假设我们令$d_k=d_{model}$，相当于经过一次self-attention之后，张量形状依然是$batch\_size * seqence\_length * d_{model}$。
 
@@ -96,15 +96,16 @@ $batch\_size * seqence\_length * d_{model}$ 映射成$\text{batch_size}  * \text
 
 如果只做一次self-attn机制的话，一个token可能会更多注意到离自己更近的token，甚至是自己。
 
-
-
 multi-head的思想就是计算出多组不同的QKV分别算Attention Value，然后再Concat起来。
+
 $$
-\begin{array} 
-\text{MultiHead}(Q,K,V)  =  Concat(head_1, \cdots , head_h)W^O \\
+MultiHead(Q,K,V) =  Concat(head_1, \cdots , head_h)W^O 
+$$
+
+$$
 where \  head_i  =  Attention(QW^Q_i,KW^K_i,VW^V_i)
-\end{array}
 $$
+
 论文中为了保证连接后的维度一致，将头的数量($h$)和每个$d_k$约定为$d_k = d_{model} / h$，论文中$d_k$、$h$、$d_{model}$分别为64、8、512。
 
 ![](images/multi_head.png)
